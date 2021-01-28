@@ -1,0 +1,2 @@
+# Avalonia.NETCoreMVVMApp
+Initial Commit
