@@ -12,16 +12,16 @@ namespace MyFirstAvaloniaProject.ViewModels
         private string _greeting;
         public MainWindowViewModel()
         {
-            OnClickMe = new RelayCommand(OnExecute, o => true);
+            OnClickMe = new RelayCommand(OnExecuteButtonClickEvent, o => true);
             _greeting = "Welcome to Avalonia!";
         }
 
         public ICommand OnClickMe { get; set; }
         public string Greeting { get => _greeting; set => this.RaiseAndSetIfChanged(ref _greeting, value); }
 
-        private void OnExecute(object? parameter)
+        private void OnExecuteButtonClickEvent(object? parameter)
         {
-            Greeting = Greeting == "Welcome to Avalonia!" ? "You just clicked the button! Click to go back." : "Welcome to Avalonia!";
+            Greeting = Greeting == "Welcome to Avalonia!" ? "You just clicked the button! Click again to go back." : "Welcome to Avalonia!";
         }
     }
 }
