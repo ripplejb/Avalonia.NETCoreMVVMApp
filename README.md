@@ -1,2 +1,2 @@
-# Avalonia.NETCoreMVVMApp
+# My First Avalonia Project
 Initial Commit
