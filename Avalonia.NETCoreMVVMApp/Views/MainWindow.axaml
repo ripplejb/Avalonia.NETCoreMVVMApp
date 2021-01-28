@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Avalonia.NETCoreMVVMApp.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="225"
+        x:Class="Avalonia.NETCoreMVVMApp.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="My First Avalonia UI"
+        WindowState="Normal" Width="800" Height="225">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+    <Grid ColumnDefinitions="*,*">
+        <Button 
+            Grid.Column="0" 
+            Command="{Binding OnClickMe}"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Center">Click Me!</Button>
+        <TextBlock Grid.Column="1" 
+            Text="{Binding Greeting}" 
+            HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
+</Window>
