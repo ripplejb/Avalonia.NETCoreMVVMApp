@@ -1,5 +1,8 @@
 # Avalonia Tutorial
 
+## What is so special about Avalonia?
+**The project will run on Linux, Mac and Windows without any code change.**
+
 ### Install Avalonia Template
 Follow the instructions on the [Avalonia Dotnet Template](https://github.com/AvaloniaUI/avalonia-dotnet-templates) page.
 
