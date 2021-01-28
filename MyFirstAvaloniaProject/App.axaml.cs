@@ -1,10 +1,10 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using Avalonia.NETCoreMVVMApp.ViewModels;
-using Avalonia.NETCoreMVVMApp.Views;
+using MyFirstAvaloniaProject.ViewModels;
+using MyFirstAvaloniaProject.Views;
 
-namespace Avalonia.NETCoreMVVMApp
+namespace MyFirstAvaloniaProject
 {
     public class App : Application
     {

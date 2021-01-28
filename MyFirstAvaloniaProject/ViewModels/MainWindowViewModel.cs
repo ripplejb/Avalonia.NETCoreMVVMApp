@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
-using Avalonia.NETCoreMVVMApp.Commands;
+using MyFirstAvaloniaProject.Commands;
 using ReactiveUI;
 
-namespace Avalonia.NETCoreMVVMApp.ViewModels
+namespace MyFirstAvaloniaProject.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {

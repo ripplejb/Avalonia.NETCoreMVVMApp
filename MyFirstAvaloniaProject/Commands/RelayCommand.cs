@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Input;
 
-namespace Avalonia.NETCoreMVVMApp.Commands
+namespace MyFirstAvaloniaProject.Commands
 {
     public class RelayCommand: ICommand
     {
